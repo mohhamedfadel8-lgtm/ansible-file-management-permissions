@@ -1,0 +1,5 @@
+# App Configuration
+server_name: {{ ansible_hostname }}
+memory_mb: {{ ansible_memtotal_mb }}
+cpu_cores: {{ ansible_processor_cores }}
+created: {{ ansible_date_time.iso8601 }}
